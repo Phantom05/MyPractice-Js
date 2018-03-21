@@ -31,15 +31,21 @@
         let name = '준영';
         let str = '안녕하세요, ${name}씨.오늘도 좋은 날씨네요!';
         console.log(str);
-<<<<<<< HEAD
-        
-        
+
         //배열 리터럴
         var data = ['JavaScript','Ajax','ASP.NET'];
-        console.log(data[1]);
+        console.log(data[1][0]);    //두번째 요소중 첫번째 요소를 취득
         //배열은 인덱스 번호로 0부터 시작한다.
-=======
->>>>>>> parent of 0bb2359... ss
+        // 배열안의 배열이 있고 그안에 또 배열이 있을 시 , 배열명[인덱스 번호][인덱스 번호][인덱스 번호]를 사용해주면 된다.
+        
+        // 배열 내의 개별 데이터는 각각 요소라고 한다. data의 첫번쨰 요소는 Javacript, 두번쨰요소는 Ajax 반면 객체내의 개별 데이터는 프로퍼티라고 한다.
+        
+        
+        
+        //객체 리터럴
+        var obj ={x:1, y:2, z:3};
+        console.log(obj.x); //결과 1
+        console.log(obj['x']);  //결과 1
     </script>
 </body>
 </html>
