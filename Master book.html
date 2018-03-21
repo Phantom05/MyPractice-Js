@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JavaScript Master Book</title>
-    <!-- js 링크를 일부러 걸지 않음. -->
+    <script src="Master_book.js"></script>
 </head>
 <body>
    
@@ -18,6 +18,19 @@
         
         var x = '안녕하세요, JavaScript !';  //JavaScript에서는 C#이나 Java같은 언어처럼 모든 문자면 문자형 숫자면 숫자형 이런식으로 데이터형을 강하게 의식하는 언어가 아니기때문에 이와같은 동작이 가능하다.
         x = 100;    //처음 x변수에 문자형을 넣었다가 뒤에 x에 숫자를 넣은것 처럼 변수에 값이 들어간 다음에 그 값을 분석하여 변수의 데이터형이 정해지기 때문이다.
+        
+        //리터럴이란 데이터형에 보관되는 값 그 자체 또는 값의 표현 방법을 말한다.
+        //숫자 리터럴 숫자리터럴은 정수리터럴과 부동 소수점 리터럴로 나눌수 있다.
+        //문자 리터럴을 사용할때는 ' ' 나 " " 를 사용하여야 한다.
+        
+        console.log('Hello\" Hero!');
+//        window.alert("안녕하세요, JavaScript!\n열심히 공부합시다!");
+        
+        //템플릿 문자열
+        //템플릿 문자열에서는 작은따움표/큰따움표 대신데(')백쿼트로 문자열을 감싼다.
+        let name = '준영';
+        let str = '안녕하세요, ${name}씨.오늘도 좋은 날씨네요!';
+        console.log(str);
     </script>
 </body>
 </html>
